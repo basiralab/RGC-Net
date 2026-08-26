@@ -146,8 +146,6 @@ jupyter notebook          # or: jupyter lab
 | Brain-graph evolution prediction (RGC-Net-Transformer) | `notebooks/experiments-generation_transformers_models.ipynb` |
 | Generation baselines | `notebooks/experiments-generation_benchmark_models.ipynb` |
 
-Pretrained checkpoints in `models/` can be loaded with `torch.load(...)` to inspect or evaluate
-trained models without retraining.
 
 ## Datasets and experimental setup
 
