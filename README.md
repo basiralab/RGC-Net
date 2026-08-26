@@ -106,8 +106,6 @@ passing; only the linear readout is trained.*
 | `notebooks/experiments-generation_transformers_models.ipynb` | Proposed generation models (RGC-Net-Transformer, GCN-Transformer, TRGC-Net-Transformer). |
 | `notebooks/experiments-generation_benchmark_models.ipynb` | Generation baselines (Identity, RBGM, EvoGraphNet). |
 | `notebooks/experiments-node_features_init.ipynb` | Supporting study on node-feature initialization. |
-| `notebooks/graph-preprocessing.ipynb` | Builds the connectomic `.npy` graph datasets. |
-| `notebooks/graph-eda.ipynb` | Exploratory data analysis / figures. |
 | `requirements.txt` | Pinned Python dependencies. |
 
 
