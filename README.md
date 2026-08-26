@@ -183,10 +183,3 @@ If you use RGC-Net in your research, please cite:
   doi     = {10.1109/TPAMI.2026.3670423}
 }
 ```
-
-## Contact
-
-For questions about the paper or code, contact the corresponding author,
-**Islem Rekik** — `i.rekik@imperial.ac.uk` ([BASIRA Lab](https://basira-lab.com/)).
-</content>
-</invoke>
