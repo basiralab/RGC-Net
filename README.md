@@ -108,13 +108,8 @@ passing; only the linear readout is trained.*
 | `notebooks/experiments-node_features_init.ipynb` | Supporting study on node-feature initialization. |
 | `notebooks/graph-preprocessing.ipynb` | Builds the connectomic `.npy` graph datasets. |
 | `notebooks/graph-eda.ipynb` | Exploratory data analysis / figures. |
-| `notebooks/experiments_classification_num_layers_gpu.ipynb` | Revised classification benchmark adding GraphSAGE / GIN / GraphESN baselines and compute-cost profiling. |
-| `notebooks/experiments_classification_num_layers_copy2.ipynb` | Classification runs used for the published PROTEINS / DD columns. |
-| `notebooks/experiments_classification_reservoir_params(1).ipynb` | Reservoir `k`/`α` ablation run reported in Table IV. |
-| `models/` | Pretrained checkpoints (`.pth`) for RGC-Net, TRGC-Net, baselines, and the generation transformers. Filenames use the internal `gcesn` / `trainable_gcesn` code name. |
-| `images/` | Architecture and pipeline figures used in this README. |
 | `requirements.txt` | Pinned Python dependencies. |
-| `AUDIT/` | Forensic reproducibility audit: file inventory, paper↔notebook result verification, implementation provenance, and known discrepancies. See [Reproducibility notes](#reproducibility-notes). |
+
 
 > Several notebooks share an evolving lineage (e.g. the `num_layers` and `reservoir_params`
 > families). `AUDIT/benchmark_provenance.md` maps each published table to the notebook that
